@@ -2,13 +2,15 @@ ms_platform_home:
     path:      /{page}
     defaults:
         _controller: MSPlatformBundle:Advert:index
-        page:        1
-        requirements: \d*
+        page: 1
+    requirements:
+        page: \d*
     
 ms_platform_view:
     path:      /advert/{id}
     defaults:  { _controller: MSPlatformBundle:Advert:view }
-    requirements: \d+
+    requirements:
+        id: \d+
 
 ms_platform_add:
     path:      /add

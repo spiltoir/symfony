@@ -11,7 +11,7 @@ class AdvertController extends Controller
 {
     public function indexAction()
     {
-        $content = $this->get('templating')->render('MSPlatformBundle:Advert:index.html.twig', array('nom' => 'winzou', 'advert_id' => 1));
+        $content = $this->get('templating')->render('MSPlatformBundle:Advert:index.html.twig', array('nom' => 'winzou'));
 		return new Response($content);
     }
 
