@@ -1,0 +1,3 @@
+ms_platform:
+    resource: "@MSPlatformBundle/Resources/config/routing.yml"
+    prefix:   /platform
